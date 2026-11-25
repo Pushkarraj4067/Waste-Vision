@@ -1,0 +1,20 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+data/*
+!data/README.md
+models/*.pth
+!models/wastevision_stage3.pth
+*.log
+*.tmp
+.env
+.env.*
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+
+# Local backup files
+app_backup.py
